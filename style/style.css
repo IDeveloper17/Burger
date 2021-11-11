@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main {
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    display: flex;
+    justify-content: space-between;
+    height: 862px;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    width: 580px;
+    padding: 170px 0;
+}
+
+/* Text */
+.text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.18rem;
+    color: #DEDEDE;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-weight: 800;
+    color: #fff;
+    font-size: 7.5rem;
+    line-height: 140px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    font-weight: 700;
+    font-size: 1.87rem;
+    color: #FBB731;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 38px;
+}
+
+a {
+    padding: 20px 45px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #FBB731;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #1E2F40;
+}
+
+/* Visual */
+.visual {
+    position: relative;
+}
+
+img {
+    width: 829px;
+    position: absolute;
+    top: 0;
+    right: -200px;
+}
+
+.bg {
+    width: 432px;
+    height: 100%;
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+    margin-left: 168px;
+}
+
